@@ -1,0 +1,112 @@
+body {
+    margin-top: 120px;
+}
+
+
+h1 {
+
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+
+}
+
+* {
+    font-size: 30px;
+}   
+
+.navbar {
+    position: fixed;
+    background: red ;      
+    top: 0;
+    width:100%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+#dinner, 
+#dessert,
+#cakesbiscuits
+{
+    align-items: center;
+    border: 3px solid;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    width: 100%;
+    max-width: 900px;
+    max-height:700px;
+    min-height:500px;
+    overflow: hidden;
+}
+
+
+/*#carouselExampleFade {
+    margin: auto;
+    height: 500px;
+    max-width: 900px;
+    width: 100%;
+} */
+
+
+ #carouselExampleFade{  
+    margin: auto;
+    height: 300px;
+     width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    #carouselExampleFade {
+        margin: auto;
+        height: 500px;
+        max-width: 900px;
+        width: 100%;
+    }
+}   
+
+.carousel-inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    filter: invert(1) grayscale(100);
+}
+
+.carousel-item {
+    background-image: url("../cupcakejar.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+
+.carousel-item:nth-child(2) {
+    background-image: url("../applecranberrypie.jpeg");
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url("../Bananaloaf.webp");
+}
+
+.carousel-item:nth-child(4) {
+    background-image: url("../basicpiecrust.jpeg");
+}
+
+.carousel-item:nth-child(5) {
+    background-image: url("../beefpie.jpeg");
+}
+
+.carousel-item:nth-child(6) {
+    background-image: url("../brusselschorizopotato.jpeg");
+}
+
+.carousel-item:nth-child(7) {
+    background-image: url("../applecake.webp");
+}
