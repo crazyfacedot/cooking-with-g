@@ -3,12 +3,25 @@ body {
 }
 
 
-h1 {
+h1,
+h2 {
+
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+
+}
+
+p {
 
     color: black;
     font-size: 24px;
     text-align: center;
     width: 100%;
+    padding: 0 20px;
+
 
 }
 
@@ -25,7 +38,10 @@ h1 {
     margin-bottom: 20px;
 }
 
-
+em {
+    font-style: italic;
+    font-size: 24px;
+}
 
 #dinner, 
 #dessert,
@@ -109,4 +125,23 @@ h1 {
 
 .carousel-item:nth-child(7) {
     background-image: url("../applecake.webp");
+}
+
+.allfooter 
+{
+     border-top: 1px solid darkgray;  
+    margin-top: 40px; 
+}
+.footer {
+ 
+    color: lightgrey;
+    font-size: 18px;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.footerlink
+{
+   color: darkslategrey;
+    font-size: 18px;  
 }
